@@ -173,7 +173,23 @@ nav{
     color: aliceblue;
 }
 
+.footer-blocks{
+    display: flex;
+}
+
+.footer-block-2{
+    margin-left: 70px;
+}
+
+.footer-block-2>h3{
+    font-weight: 700;
+    line-height: 1.14;
+    /* line-heigth (de figma): 16px / font-size: 14px = line-height: 1.14 */
+    text-transform: uppercase;
+}
+
 .web-studio-footer {
+    display: inline-block;
     color: var(--blue-color);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -197,6 +213,30 @@ nav{
 .info-footer>li>a:focus {
     color: var(--blue-color);
 }
+
+.footer-network-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #AFB1B8;
+    background: rgba(255, 255, 255, 0.1);
+    object-position: 50% 50%;
+}
+
+.footer-icon:hover{
+    background-color: var(--blue-color);
+    fill: #F5F4FA;
+}
+
+
 
 
 
@@ -360,18 +400,54 @@ nav{
     margin-top: 16px;
 }
 
+/*
 .our-team-cont-icon{
+    border: 1px dashed #2a2a2a;
+}
+*/
+
+.our-team-icon {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    border: 1px dashed #2a2a2a;
-    padding-left: 11px;
-    padding-top: 11px;
     fill: #AFB1B8;
+    /*border: 1px dashed #f51818;*/
 }
 
-.about-us-icon{
-    
+.our-team-icon:hover{
+    background-color: var(--blue-color);
+    fill: #F5F4FA;
+}
+
+.sec-5{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 151px;
+}
+
+.clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clientes-box{
+    width: 170px;
+    height: 81px;
+    /*border: 1px solid #AFB1B8;*/
+    border-radius: 4px;
+}
+
+.clientes-box:hover{
+    border: 1px solid var(--blue-color);
+    fill: var(--blue-color);
+    stroke: var(--blue-color);
+}
+
+.clientes-icon{
+    width: 100%;
+    height: 100%;
 }
 
 
