@@ -222,6 +222,15 @@ nav{
     margin-top: 20px;
 }
 
+.footer-box-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-icon{
     width: 44px;
     height: 44px;
@@ -405,13 +414,14 @@ nav{
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    border: 1px dashed #2a2a2a;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .our-team-cont-icon:hover{
+    Fill: #F5F4FA;
+    stroke: #F5F4FA;
     background-color: var(--blue-color);
 }
 
@@ -419,12 +429,13 @@ nav{
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
-    /*border: 1px dashed #f51818;*/
+    stroke: #AFB1B8;
 }
 
 .our-team-icon:hover{
     background-color: var(--blue-color);
     fill: #F5F4FA;
+    stroke: #F5F4FA;
 }
 
 .sec-5{
