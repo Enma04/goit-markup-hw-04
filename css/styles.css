@@ -146,7 +146,7 @@ nav{
     margin-left: 200px;
 }
 
-.navegation-info>li>a {
+.nav-info-link1, .nav-info-link2 {
     display: block;
     font-size: 14px;
     font-weight: 500;
@@ -155,25 +155,27 @@ nav{
     margin-left: 50px;
 }
 
-.navegation-info>li>a:hover,
-.navegation-info>li>a:focus {
+.nav-info-link1:hover,
+.nav-info-link1:focus {
+    color: var(--blue-color);
+}
+
+.nav-info-link2:hover,
+.nav-info-link2:focus {
     color: var(--blue-color);
 }
 
 .nav-info-link1::before{
     content: "";
-    width: 24px;
-    height: 24px;
     background-size: contain;
-    background-image: url("/./images/mail.png");   
+    background-image: url("../images/mail.png");   
 }
 
 .nav-info-link2::before{
     content: "";
-    width: 24px;
-    height: 24px;
+    display: inline-block;
     background-size: contain;
-    background-image: url("/./images/telefono.png");
+    background-image: url("../images/telefono.png");
 }
 
 
