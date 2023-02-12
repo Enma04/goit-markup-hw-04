@@ -222,27 +222,27 @@ nav{
     margin-top: 20px;
 }
 
-.footer-box-icon{
-    width: 44px;
-    height: 44px;
+/* .footer-box-icon{
     border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .footer-icon{
     width: 44px;
     height: 44px;
-    border-radius: 50%;
     fill: #AFB1B8;
+    stroke: #AFB1B8;
     background: rgba(255, 255, 255, 0.1);
-    object-position: 50% 50%;
+    border-radius: 50%;
 }
 
 .footer-icon:hover{
     background-color: var(--blue-color);
     fill: #F5F4FA;
+    stroke: #F5F4FA;
 }
 
 
