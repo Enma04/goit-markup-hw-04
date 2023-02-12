@@ -445,20 +445,21 @@ nav{
 .clientes-box{
     width: 170px;
     height: 81px;
-    /*border: 1px solid #AFB1B8;*/
     border-radius: 4px;
 }
 
-.clientes-box:hover{
-    border: 1px solid var(--blue-color);
+.clientes-icon{
+    width: 170px;
+    height: 81px;
+    fill: #AFB1B8;
+    stroke: #AFB1B8;
+}
+
+.clientes-icon:hover{
     fill: var(--blue-color);
     stroke: var(--blue-color);
 }
 
-.clientes-icon{
-    width: 100%;
-    height: 100%;
-}
 
 
 
