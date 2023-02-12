@@ -409,33 +409,24 @@ nav{
     margin-top: 16px;
 }
 
-
 .our-team-cont-icon{
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.our-team-cont-icon:hover{
-    Fill: #F5F4FA;
-    stroke: #F5F4FA;
-    background-color: var(--blue-color);
 }
 
 .our-team-icon {
-    width: 20px;
-    height: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     fill: #AFB1B8;
     stroke: #AFB1B8;
 }
 
 .our-team-icon:hover{
-    background-color: var(--blue-color);
-    fill: #F5F4FA;
+    Fill: #F5F4FA;
     stroke: #F5F4FA;
+    background-color: var(--blue-color);
 }
 
 .sec-5{
