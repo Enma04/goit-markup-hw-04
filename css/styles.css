@@ -143,39 +143,39 @@ nav{
 
 .navegation-info{
     display: flex;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
-.nav-info-link1, .nav-info-link2 {
+.nav-icon {
+    width: 16px;
+    height: 12px;
+    fill: var(--blue-color);
+}
+
+.nav-icon:hover {
+    fill: #F5F4FA;
+}
+
+.navegation-info>li:not(:first-child){
+    margin-left: 10px;
+}
+
+.navegation-info>li {
     display: block;
     font-size: 14px;
     font-weight: 500;
     color: var(--text-gray);
     padding: 38px 0px;
-    margin-left: 50px;
+    
 }
 
-.nav-info-link1:hover,
-.nav-info-link1:focus {
+.navegation-info>li:nth-child(3){
+    margin-left: 20px;
+}
+
+.navegation-info>li>a:hover,
+.navegation-info>li>a:focus {
     color: var(--blue-color);
-}
-
-.nav-info-link2:hover,
-.nav-info-link2:focus {
-    color: var(--blue-color);
-}
-
-.nav-info-link1::before{
-    content: "";
-    background-size: contain;
-    background-image: url("../images/mail.png");   
-}
-
-.nav-info-link2::before{
-    content: "";
-    display: inline-block;
-    background-size: contain;
-    background-image: url("../images/telefono.png");
 }
 
 
@@ -296,6 +296,7 @@ nav{
     border-radius: 4px;
     padding: 10px 32px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .boton1:hover, .boton1:focus{
@@ -461,6 +462,7 @@ nav{
     height: 81px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .clientes-box:hover:hover{
