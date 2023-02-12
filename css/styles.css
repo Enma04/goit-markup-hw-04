@@ -148,12 +148,12 @@ nav{
 
 .nav-icon {
     width: 16px;
-    height: 12px;
-    fill: var(--blue-color);
+    height: 14px;
+    fill: #AFB1B8;
 }
 
-.nav-icon:hover {
-    fill: #F5F4FA;
+.nav-icon:hover {   
+    fill: var(--blue-color);
 }
 
 .navegation-info>li:not(:first-child){
