@@ -143,21 +143,14 @@ nav{
 
 .navegation-info{
     display: flex;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .nav-icon {
     width: 16px;
-    height: 14px;
+    height: 18px;
     fill: #AFB1B8;
-}
-
-.nav-icon:hover {   
-    fill: var(--blue-color);
-}
-
-.navegation-info>li:not(:first-child){
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navegation-info>li {
@@ -166,16 +159,18 @@ nav{
     font-weight: 500;
     color: var(--text-gray);
     padding: 38px 0px;
-    
+    margin-right: 30px;
 }
 
-.navegation-info>li:nth-child(3){
-    margin-left: 20px;
+.navegation-info>li>a{
+    display: flex;
+    align-items: center;
 }
 
 .navegation-info>li>a:hover,
 .navegation-info>li>a:focus {
     color: var(--blue-color);
+    fill: var(--blue-color);
 }
 
 
